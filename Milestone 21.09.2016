@@ -1,0 +1,30 @@
+[PT-BR]
+
+CLASSES:
+
+PERFIL (simplificado) -> à ser integrado
+    ID int, Interesses <List> String;
+
+PAGE - ongs e páginas com fins comerciais (simplificado) -> à ser integrado
+    ID int, Categoria <List> String, Propaganda <Img>, Propaganda_Mensagem String;
+
+==/==
+
+
+CENÁRIO:
+
+Inicialmente PERFIL e PAGE serão integrados ao nosso módulo, utilizaremos os mesmos já com dados cadastrados no banco de dados, 
+para que não precisemos criar o CRUD destas classes.
+
+Utilizaremos de um espaço na página de perfil do usuário, para que após determinado tempo, quando houver atualização da página, 
+seja mostrada a imagem e a mensagem da propaganda de uma PAGE para o usuário, dentro de seus interesses, como uma possível forma 
+de monetização.
+
+==/==
+
+
+OBJETIVO:
+
+Levando em conta os aspectos de nosso módulo, nosso objetivo é garantir que esse espaço no perfil do usuário seja corretamente apresentado. 
+Sempre dentro dos parâmetros do perfil deste e das páginas as quais este esteja associado.
+
